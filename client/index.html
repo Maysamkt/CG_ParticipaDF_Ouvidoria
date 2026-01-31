@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="description"
+    content="Ouvidoria Digital - Participa DF. Registre suas manifestações de forma simples, segura e inclusiva." />
+  <meta name="theme-color" content="#1e5a7a" />
+  <meta name="color-scheme" content="light dark" />
+
+  <!-- iOS PWA -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Ouvidoria DF" />
+
+  <title>Ouvidoria Digital - Participa DF</title>
+
+  <link rel="icon" type="image/svg+xml" href="/icon/favicon.svg" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="apple-touch-icon" href="/icon/apple-touch-icon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <script type="module" src="/src/main.tsx"></script>
+
+  <!-- VLibras (Acessibilidade em Libras) -->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    try {
+      if (window.VLibras?.Widget) {
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      }
+    } catch (e) {
+      console.warn("VLibras não disponível:", e);
+    }
+  </script>
+
+
+</body>
+
+</html>
