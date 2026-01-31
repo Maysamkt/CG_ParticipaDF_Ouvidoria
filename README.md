@@ -6,7 +6,7 @@
 
 **Interface web de alta performance para o sistema de Ouvidoria do Participa DF.**
 
-**[Acessar Aplicação](https://ouvidoria.simplificagov.com)** | **[Documentação API](https://ouvidoria.simplificagov.com/docs)**
+**[Acessar Aplicação](https://ouvidoria.simplificagov.com)** | **[Documentação API](https://api.simplificagov.com/docs)**
 
 ---
 
@@ -43,8 +43,8 @@ Esta interface foi construída utilizando as tecnologias mais recentes do ecossi
 
 ```bash
 # Clone o repositório
-git clone [https://github.com/participadf/frontend.git](https://github.com/participadf/frontend.git)
-cd frontend
+git clone [https://github.com/Maysamkt/CG_ParticipaDF_Ouvidoria.git](https://github.com/Maysamkt/CG_ParticipaDF_Ouvidoria.git)
+cd CG_ParticipaDF_Ouvidoria
 ```
 
 # Instale as dependências
@@ -147,12 +147,11 @@ Este projeto está licenciado sob a **Licença MIT**. Veja o arquivo [LICENSE](L
 ## 🔗 Links úteis
 
 - **API Participa DF (Documentação):** [https://api.simplificagov.com/docs](https://api.simplificagov.com/docs)
-- **Frontend Participa DF (Este Repositório):** [https://github.com/participadf/frontend](https://github.com/participadf/frontend)
+- **Frontend Participa DF (Este Repositório):** [https://github.com/Maysamkt/CG_ParticipaDF_Ouvidoria.git](https://github.com/Maysamkt/CG_ParticipaDF_Ouvidoria.git)
 - **Deploy:** [https://ouvidoria.simplificagov.com](https://ouvidoria.simplificagov.com)
 
 ## 📞 Suporte
 
-- Email: [suporte@participadf.com](mailto:suporte@participadf.com)
 - 🐛 **Issues:** GitHub Issues
 - 💬 **Discussões:** GitHub Discussions
 
